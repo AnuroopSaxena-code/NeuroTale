@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import re
 
-OUTPUT_FILE = '../data/streamed_books.csv'
+OUTPUT_FILE = 'data/streamed_books.csv'
 
 def clean_text(text):
     text = text.lower()
